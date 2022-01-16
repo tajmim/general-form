@@ -1,0 +1,37 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+h2{
+    text-align: center;
+    padding-top: 64px;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration:underline;
+    color: blue;
+}
+form{position: absolute;top: 50%;left: 50%;transform: translate(-50% ,-50%);}
+form h3{
+    display: inline;
+}
+form input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px blue solid;
+    outline: none;
+}
+form input: hover{}
+form input: focus{}
+.submit{
+    background: #0b00ff;
+    padding: 6px 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+}
